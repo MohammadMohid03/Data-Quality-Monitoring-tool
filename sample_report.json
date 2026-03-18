@@ -1,0 +1,117 @@
+{
+    "row_count": 1030,
+    "column_count": 7,
+    "nulls": {
+        "Transaction_ID": {
+            "count": 0,
+            "percentage": 0.0
+        },
+        "Date": {
+            "count": 0,
+            "percentage": 0.0
+        },
+        "Amount": {
+            "count": 50,
+            "percentage": 4.85
+        },
+        "Category": {
+            "count": 21,
+            "percentage": 2.04
+        },
+        "Status": {
+            "count": 0,
+            "percentage": 0.0
+        },
+        "Customer_Email": {
+            "count": 0,
+            "percentage": 0.0
+        },
+        "Customer_Phone": {
+            "count": 0,
+            "percentage": 0.0
+        }
+    },
+    "duplicates": {
+        "count": 23,
+        "percentage": 2.23
+    },
+    "data_types": {
+        "Transaction_ID": {
+            "pandas_dtype": "object",
+            "inferred_type": "string"
+        },
+        "Date": {
+            "pandas_dtype": "object",
+            "inferred_type": "string"
+        },
+        "Amount": {
+            "pandas_dtype": "object",
+            "inferred_type": "string"
+        },
+        "Category": {
+            "pandas_dtype": "object",
+            "inferred_type": "string"
+        },
+        "Status": {
+            "pandas_dtype": "object",
+            "inferred_type": "string"
+        },
+        "Customer_Email": {
+            "pandas_dtype": "object",
+            "inferred_type": "string"
+        },
+        "Customer_Phone": {
+            "pandas_dtype": "object",
+            "inferred_type": "string"
+        }
+    },
+    "outliers": {},
+    "statistics": {},
+    "cardinality": {
+        "Transaction_ID": {
+            "unique_count": 1000,
+            "unique_percentage": 97.09
+        },
+        "Date": {
+            "unique_count": 342,
+            "unique_percentage": 33.2
+        },
+        "Amount": {
+            "unique_count": 935,
+            "unique_percentage": 90.78
+        },
+        "Category": {
+            "unique_count": 6,
+            "unique_percentage": 0.58
+        },
+        "Status": {
+            "unique_count": 3,
+            "unique_percentage": 0.29
+        },
+        "Customer_Email": {
+            "unique_count": 1004,
+            "unique_percentage": 97.48
+        },
+        "Customer_Phone": {
+            "unique_count": 982,
+            "unique_percentage": 95.34
+        }
+    },
+    "patterns": {
+        "Date": {
+            "pattern_type": "date (YYYY-MM-DD)",
+            "invalid_count": 20,
+            "invalid_percentage": 1.94
+        },
+        "Customer_Email": {
+            "pattern_type": "email",
+            "invalid_count": 20,
+            "invalid_percentage": 1.94
+        },
+        "Customer_Phone": {
+            "pattern_type": "phone",
+            "invalid_count": 20,
+            "invalid_percentage": 1.94
+        }
+    }
+}
